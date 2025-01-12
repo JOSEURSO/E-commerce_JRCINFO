@@ -93,3 +93,17 @@ function slideIndicator(toIndex) {
    dotActive.classList.remove("carousel_dot__active");
    newDotActive.classList.add("carousel_dot__active");
 }
+
+var msgCookies = document.getElementById('cookies-msg')
+
+function aceito(){
+   localStorage.lgdp = "sim"
+   msgCookies.classList.remove('mostrar')
+}
+
+if(localStorage.lgdp == 'sim'){
+   msgCookies.classList.remove('mostrar')
+
+}else{
+   msgCookies.classList.add('mostrar')
+}
