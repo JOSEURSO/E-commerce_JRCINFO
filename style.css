@@ -30,6 +30,10 @@
    color: var(--bs-indigo);
 }
 
+span p{
+   color: red;
+   font-size: 1.5rem;
+}
 
 
 p{
